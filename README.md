@@ -5,13 +5,13 @@ create football formation template.
 ### Usage
 
 
-1. set formation
+1 set formation
 
 ```
 :FootballPrepare 442
 ```
 
-2. set player
+2 set player
 
 ex.
 ```
@@ -22,7 +22,7 @@ DF (2.bar) (3.baz) (4.foobar) (5.barbaz)
 GK (1.foo)
 ```
 
-3. create formation
+3 create formation
 
 ```
 :FootballCreate
