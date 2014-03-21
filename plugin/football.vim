@@ -92,10 +92,10 @@ function s:Prepare(p)
   echo 's:Prepare('. a:p . ') called in footbal.vim and'
   if a:p == 442
     exe ':normal o442@'.'football.vim'
-    exe ':normal oFW () ()'
-    exe ':normal oMF () () () ()'
-    exe ':normal oDF () () () ()'
-    exe ':normal oGK ()'
+    exe ':normal oFW () () '
+    exe ':normal oMF () () () () '
+    exe ':normal oDF () () () () '
+    exe ':normal oGK () '
   endif
 endfunction
 
